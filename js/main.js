@@ -12,11 +12,17 @@ const form = document.getElementById("data");
      for(var i = 0; i < 2; i++){
          if(form[i].type ==="radio" && form[i].checked)
          gen = form[i].value;
-         if (form[0].checked==true)
-         gen = "male" ;
+         if (form[0].checked==true){
+            gen = "male" ;
+            bday = new Date(date);
+            day = bday.getDay();
+            akanName = akanNamesboy[day] ;
+            console.log(akanName);
+            
+         }
          else if( form[1].checked==true)
-         gen = "female"
-         console.log(gen);
+         gen = "female" ;
+         
          
      }
     
