@@ -20,8 +20,15 @@ const form = document.getElementById("data");
             console.log(akanName);
             
          }
-         else if( form[1].checked==true)
-         gen = "female" ;
+         else if( form[1].checked==true){
+            gen = "female" ;
+            bday = new Date(date);
+            day = bday.getDay();
+            akanName = akanNamesgirl[day] ;
+            console.log(akanName);
+
+         
+         }
          
          
      }
