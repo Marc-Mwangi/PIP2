@@ -1,0 +1,12 @@
+body{
+    margin: 0px;
+    background-image: url('../wall1.jpeg');
+}
+.nav img {
+    width: 10%;
+    float: left;
+}
+.nav {
+    background-color: rgba(234,240,240,0.6);
+    padding: 30px;
+}
