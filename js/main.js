@@ -9,11 +9,15 @@ const form = document.getElementById("data");
      var boy = document.getElementById("Male").value ;
      var girl = document.getElementById("Female").value;
      var gender =form[0].value;
-     for(var i = 0; i < form.length; i++){
+     for(var i = 0; i < 2; i++){
          if(form[i].type ==="radio" && form[i].checked)
          gen = form[i].value;
+         if (form[0].checked==true)
+         gen = "male" ;
+         else if( form[1].checked==true)
+         gen = "female"
          console.log(gen);
-         console.log(date);
+         
      }
     
  })
