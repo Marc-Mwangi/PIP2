@@ -8,5 +8,12 @@ body{
 }
 .nav {
     background-color: rgba(234,240,240,0.6);
-    padding: 30px;
+    padding: 30px
+}
+.intro {
+    background-color: rgba(234,240,240,0.6);
+    width: 40%;
+    margin: 6%;
+    padding: 1%;
+    text-align: center;
 }
