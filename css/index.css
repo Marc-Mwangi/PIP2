@@ -30,4 +30,8 @@ body{
 }
 #monday {
     position: fixed;
+    bottom: 25%;
+}
+#Tue {
+    position: fixed;
 }
