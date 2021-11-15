@@ -17,7 +17,6 @@ const form = document.getElementById("data");
             bday = new Date(date);
             day = bday.getDay();
             akanName = akanNamesboy[day] ;
-            console.log(akanName);
             
          }
          else if( form[1].checked==true){
@@ -25,12 +24,11 @@ const form = document.getElementById("data");
             bday = new Date(date);
             day = bday.getDay();
             akanName = akanNamesgirl[day] ;
-            console.log(akanName);
-
+            document.getElementById("monday").innerHTML = "Your Akan name is " + akanName
          
          }
-         
-         
+         console.log(akanName);
+                
      }
     
  })

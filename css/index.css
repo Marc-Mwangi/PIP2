@@ -17,19 +17,5 @@ body{
     margin: 6%;
     padding: 1%;
     text-align: center;
-}
-.namecard {
-    display: grid;
-    grid-template-columns: 400px;
-    grid-template-areas: "image" "name" "meaning";
-    background-color: rgba(234,240,240,0.6);
-}
-.image{
-    grid-area: image;
-}
-.name{
-    grid-area: name;
-}
-.meaning {
-    grid-area: meaning;
+    float: left;
 }
