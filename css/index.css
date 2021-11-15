@@ -22,10 +22,11 @@ body{
 .monday{
     background-color: rgba(234,240,240,0.6);
     width: 300px;
-    height: 100px;
+    height: 170px;
     position: relative;
     left:60%;
-    top: 35vh;
+    top: 20vh;
+    padding: 30px;
 
 }
 #monday {
