@@ -12,3 +12,10 @@ marc-mwangi.github.io/pip2/
 
 ## Technology Used
 I used visual studio in writing all HTML CSS and Javascript code in this project
+## Contact Information
+You may contact the author via email:
+
+marc.mwangi@student.moringaschool.com
+
+## License and Copyright Information
+The project is for educational purposes and no rights are reserved by the author. The background image was sourced from Google.
